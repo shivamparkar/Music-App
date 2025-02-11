@@ -1,0 +1,41 @@
+.container{
+   height: 40px;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.input {
+   width: 350px;
+   height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+
+}
+
+.input .ant-input::placeholder {
+   color: rgb(148, 148, 148) !important; 
+   opacity: 1;
+}
+
+
+.input .ant-input-search-button {
+  
+   background-color: rgb(0, 121, 49);
+}
+
+
+
+
+.profile{
+   width: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   cursor: pointer;
+}
+
